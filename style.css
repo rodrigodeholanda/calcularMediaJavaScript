@@ -1,0 +1,62 @@
+body { 
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+}
+
+p {
+    margin-top: 0;
+}
+
+div {
+    padding: 2vh 0vh 2vh 2vh;
+}
+
+.botao{
+    margin: 0;
+    padding: 5vh 0 0 0;
+    display: flex;
+    width:max-content;
+}
+
+.containerParagrafo{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerMedia{
+    margin: 0;
+    padding: 2vh 2vh 2vh 2vh;
+    display: flex;
+    font-size: 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerFilho{
+    margin: 0;
+    padding: 4vh 0 0 0;
+    display: flex;
+    flex-direction: column;
+    width: 80vh;
+    height: 50vh;
+    background-color: rgba(19, 18, 18, 0.705);
+    backdrop-filter: blur(20px);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px 20px 20px 20px;
+    align-items:center;
+    justify-content: center;
+}
+
+.containerPai{
+    background-image: url(imagemBackground.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
